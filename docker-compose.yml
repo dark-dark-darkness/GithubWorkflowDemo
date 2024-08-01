@@ -1,0 +1,6 @@
+﻿services:
+  github-workflow-demo:
+    image: dyrxx/github-workflow-demo
+    build:
+      context: .
+      dockerfile: GithubWorkflowDemo/Dockerfile
